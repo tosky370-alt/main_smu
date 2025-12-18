@@ -1,0 +1,50 @@
+@use "./utopia";
+
+*,
+*::before,
+::after {
+  box-sizing: border-box;
+}
+
+body {
+  min-block-size: 100vh;
+  margin: 0;
+  line-height: 1.6;
+  color: #e3e3e3;
+  background-color: #0d0d0d;
+}
+
+.img {
+  width: clamp(20rem, 32vw, 460px);
+  aspect-ratio: 460 / 455;
+}
+
+.transparent {
+  width: 100%;
+  height: 100%;
+  background-image: url("./image/rubbin_cup.png");
+  background-size: cover;
+}
+
+#definition {
+  width: clamp(60rem, 100vw, 90rem);
+  padding: var(--space-l);
+  color: #0d0d0d;
+  background-color: #e3e3e3;
+}
+
+#closure {
+  width: clamp(20rem, 60vw, 49.8069rem);
+  aspect-ratio: 49.8069 / 12.7506;
+  background-image: url("./image/closure.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.line {
+  display: inline-block;
+  height: var(--space-xl);
+  margin-left: var(--space-s);
+  border-left: 1px solid #e3e3e3;
+}
