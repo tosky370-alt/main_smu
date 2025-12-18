@@ -7,118 +7,206 @@
     <link rel="stylesheet" href="./main.css" />
   </head>
   <body>
-    <h1>GESTALT</h1>
-    <div class="img"><!-- 이미지와 정의 -->
-      <div class="transparent"></div>
+    
+<section class="hero">
+  <div class="container">
+    <div class="hero-inner">
+      <h1>GESTALT</h1>
+
+      <div class="img">
+        <div class="transparent"></div>
+      </div>
+
       <button>게슈탈트법칙 보기</button>
-      <div id="definition">
-        <h2>게슈탈트란?</h2>
-        <p>
-          사물을 볼 때 개별 요소가 아닌 구성된 전체 패턴으로 인식한다는 개념.
-        </p>
-        <div id="closure"></div>
     </div>
-    <div><!-- 에렌펠스 -->
+  </div>
+</section>
+
+
+
+<section class="definition-section">
+  <div class="container">
+    <div id="definition">
+      <h2>게슈탈트란?</h2>
+      <p>
+        사물을 볼 때 개별 요소가 아닌 구성된 전체 패턴으로 인식한다는 개념.
+      </p>
+      <div id="closure"></div>
+    </div>
+  </div>
+</section>
+
+
+<section class="timeline">
+  <div class="container">
+    <div class="timeline-grid">
+
+      <!-- 왼쪽 라인 + 연도 블록 -->
+      <div class="time-mark">
         <span class="line"></span>
         <span class="year">1890</span>
+      </div>
+
+      <!-- 텍스트 -->
+      <div class="text">
         <h2>[개념의 탄생]</h2>
-        <p>크리스티안 폰 에렌펠스는 처음으로 <br>게슈탈트라는 개념을 정의하며<br>요소들의 관계에서 나타나는 <br>전체적 성질을 ‘형태적 질'이라고 명명.</p>
-        <div class = "ehrenfels">
-            <img src="./image/Ehrenfels.jpg" alt="ehrenfels">
-            <p calss="name">Christian von Ehrenfels<br>(1859~1932)</p>
-        </div>
-    </div>
-    <div><!-- 베를린학파 -->
-        <span class="line"></span>
-        <span class="year">1910</span>
-        <h2>[베를린 학파 형성]</h2>
         <p>
-            1910년 당대 심리학의 주류였던 요소주의에 반발하여 <br>에렌펠스의 형태적 질 개념을 기반으로 <br>막스 베르트하이머, 볼프강 퀼러,  쿠르트 코프카의 <b>‘베를린 학파’</b>가 형성.
+          크리스티안 폰 에렌펠스는 처음으로<br />
+          게슈탈트라는 개념을 정의하며<br />
+          요소들의 관계에서 나타나는<br />
+          전체적 성질을 ‘형태적 질’이라 명명.
         </p>
-        <div><!-- 3철학자 사진 -->
-            <img src="./image/Koffka.jpg" alt="koffka">
-            <p calss="name">Kurt Koffka</p>
+      </div>
 
-            <img src="./image/Wertheimer.jpg" alt="Wertheimer">
-             <p calss="name">Max Wertheimer</p>
+      <!-- 이미지 -->
+      <figure class="portrait">
+        <img src="./image/Ehrenfels.jpg" alt="Christian von Ehrenfels" />
+      </figure>
 
-            <img src="./image/Kühler.jpg" 
-            alt="Kühler">
-             <p calss="name">Wolfgang Köhler</p>
-        </div>
-        <p>이전까지 철학적 개념으로만 존재하던 게슈탈트를<br>실제 지각 과정에서 어떻게 작동하는지 실험과학적으로 검증 시도.
+      <!-- 이름 -->
+      <figcaption class="name">
+        Christian von Ehrenfels<br />
+        (1859~1932)
+      </figcaption>
+
+    </div>
+  </div>
+</section>
+
+
+
+
+    </div>
+    <div>
+      <!-- 베를린학파 -->
+      <span class="line"></span>
+      <span class="year">1910</span>
+      <h2>[베를린 학파 형성]</h2>
+      <p>
+        1910년 당대 심리학의 주류였던 요소주의에 반발하여 <br />에렌펠스의
+        형태적 질 개념을 기반으로 <br />막스 베르트하이머, 볼프강 퀼러, 쿠르트
+        코프카의 <b>‘베를린 학파’</b>가 형성.
+      </p>
+      <div>
+        <!-- 3철학자 사진 -->
+        <img src="./image/Koffka.jpg" alt="koffka" />
+        <p calss="name">Kurt Koffka</p>
+
+        <img src="./image/Wertheimer.jpg" alt="Wertheimer" />
+        <p calss="name">Max Wertheimer</p>
+
+        <img src="./image/Kühler.jpg" alt="Kühler" />
+        <p calss="name">Wolfgang Köhler</p>
+      </div>
+      <p>
+        이전까지 철학적 개념으로만 존재하던 게슈탈트를<br />실제 지각 과정에서
+        어떻게 작동하는지 실험과학적으로 검증 시도.
+      </p>
+    </div>
+
+    <div>
+      <!-- 파이현상 -->
+      <span class="line"></span>
+      <span class="year">1912</span>
+      <div>
+        <img src="./image/light.png" alt="light" />
+      </div>
+      <h2>[파이현상]</h2>
+      <p>
+        베르트하이머가 번갈아 켜지는 철도 신호/연속 구조물 보며 정지된 대상이
+        움직이는 것처럼 보이는 착시에서 두개의 정지된 빛이 짤은 간격으로 번갈아
+        깜박거린 것으로 실제 움직임이 없음에도 빛이 이동하는 것처럼 보인다는
+        것을 발견.
+      </p>
+      <div>
+        <img src="./image/Wertheimer.jpg" alt="Wertheimer" />
+      </div>
+      <h3>“운동 그 자체가 독립된<br />전체적 지각이다"</h3>
+      <p>
+        a와b의 시공간적 관계가 두개를 합한것과는 다른 새로운 전체을 만들어낼 수
+        있다는 사실을 검증.
+      </p>
+    </div>
+
+    <div>
+      <!-- 장이론 -->
+      <span class="lineCenter"></span>
+      <span class="year">1920</span>
+      <h2>[장이론]</h2>
+      <p>쾰러는 지각을 뇌 전체가 상호작용하는 하나의 ‘장(Field)’으로 비유.</p>
+      <p>
+        이 장은 자극이 영향을 주고받으며 가장 안정적인 형태,<br />즉, 에너지가
+        최소화된 상태를 찾으려는 경향.
+      </p>
+      <div>
+        <img src="./image/field.png" alt="field" />
+      </div>
+      <div class="car">
+        <img src="./image/zigzag.png" alt="zigzag" />
+        <p>
+          이는 운전할 때 울퉁불퉁한 길보다 부드러운 곡선의 길이 덜 흔들리고
+          편안한 것처럼,
         </p>
-    </div>
- 
+      </div>
 
-    <div><!-- 파이현상 -->
-        <span class="line"></span>
-        <span class="year">1912</span>
-        <div>
-            <img src="./image/light.png" alt="light">
-        </div>
-        <h2>[파이현상]</h2>
-        <p>베르트하이머가 번갈아 켜지는 철도 신호/연속 구조물 보며 정지된 대상이 움직이는 것처럼 보이는 착시에서 두개의 정지된 빛이 짤은 간격으로 번갈아  깜박거린 것으로 실제 움직임이 없음에도 빛이 이동하는 것처럼 보인다는 것을 발견.</p>
-        <div>
-            <img src="./image/Wertheimer.jpg" alt="Wertheimer">
-        </div>
-        <h3>“운동 그 자체가 독립된<br>전체적 지각이다"</h3>
-        <p>a와b의 시공간적 관계가 두개를 합한것과는 다른 새로운 전체을 만들어낼 수 있다는 사실을 검증.</p>
-    </div>
+      <div class="car">
+        <img src="./image/flat.png" alt="flat" />
+        <p>
+          지각도 복잡한 해석보다는 연속적이고 매끄러운 구조를 택해 심리적 안정
+          상태를 유지하려 한다고 볼 수 있다.
+        </p>
+      </div>
 
-    <div><!-- 장이론 -->
-        <span class="lineCenter"></span>
-        <span class="year">1920</span>
-        <h2>[장이론]</h2>
-        <P>쾰러는 지각을 뇌 전체가 상호작용하는 하나의 ‘장(Field)’으로 비유.</P>
-        <P>이 장은 자극이 영향을 주고받으며 가장 안정적인 형태,<br>즉, 에너지가 최소화된 상태를 찾으려는 경향.</P>
-        <div>
-            <img src="./image/field.png" alt="field">
-        </div>
-        <div class="car">
-            <img src="./image/zigzag.png" alt="zigzag">
-            <p>이는 운전할 때 울퉁불퉁한 길보다 부드러운 곡선의 길이 덜 흔들리고 편안한 것처럼,</p>
-        </div>
+      <div>
+        <!-- 좋은형태법칙 -->
+        <h3>좋은 형태 법칙<br />(Law of Prägnanz)</h3>
 
-        <div class="car">
-            <img src="./image/flat.png" alt="flat">
-            <p>지각도 복잡한 해석보다는 연속적이고 매끄러운 구조를 택해 심리적 안정 상태를 유지하려 한다고 볼 수 있다.</p>
-        </div>
+        <p>
+          따라서 우리가 사물을 하나의 ‘형태’로 인식하는 것은, 뇌 속의 장이
+          자극을 전체적으로 조정하며 가장 단순하고 조화로운 구조로 스스로
+          정리하기 때문이다.
+        </p>
 
-        <div><!-- 좋은형태법칙 -->
-            <h3>좋은 형태 법칙<br>(Law of Prägnanz)</h3>
+        <p>
+          이 과정에서 부분보다 전체의 관계와 패턴이 우선하게 되며, 이러한 조직
+          원리가 바로 게슈탈트의 핵심인 <br />
+          <b>‘좋은 형태의 법칙’</b>으로 이어진다.
+        </p>
 
-            <p>따라서 우리가 사물을 하나의 ‘형태’로 인식하는 것은, 뇌 속의 장이 자극을 전체적으로 조정하며 가장 단순하고 조화로운 구조로 스스로 정리하기 때문이다.</p>
+        <img src="./image/Law of Prägnanz.png" alt="Law of Prägnanz" />
 
-            <p>이 과정에서 부분보다 전체의 관계와 패턴이 우선하게 되며, 이러한 조직 원리가 바로 게슈탈트의 핵심인 <br> <b>‘좋은 형태의 법칙’</b>으로 이어진다.</p>
-
-            <img src="./image/Law of Prägnanz.png" alt="Law of Prägnanz">
-
-            <img src="./image/Law of Prägnanz_b.png" alt="Law of Prägnanz black and white">
-
-        </div>
-
-
-
+        <img
+          src="./image/Law of Prägnanz_b.png"
+          alt="Law of Prägnanz black and white"
+        />
+      </div>
     </div>
 
-    <div><!--지각조직법칙 -->
-        <span class="line"></span>
-        <span class="year">1923</span>
+    <div>
+      <!--지각조직법칙 -->
+      <span class="line"></span>
+      <span class="year">1923</span>
 
-        <h2>[지각 조직 법칙]</h2>
-        <h3>기본 5법칙의 정립</h3>
+      <h2>[지각 조직 법칙]</h2>
+      <h3>기본 5법칙의 정립</h3>
 
-        <p>베르트하이머는 「지각 조직 법칙」에서 <br>”인간의 시지각은 처음부터 조직화되어 있다”고 주장하며,<br>지각이 요소들의  합이 아닌 전체적 구조로 형성된다고 말한다.</p>
+      <p>
+        베르트하이머는 「지각 조직 법칙」에서 <br />”인간의 시지각은 처음부터
+        조직화되어 있다”고 주장하며,<br />지각이 요소들의 합이 아닌 전체적
+        구조로 형성된다고 말한다.
+      </p>
 
-        <p>지각 조직 법칙에서는<br> 근접, 유사, 연속성, 폐쇄, 공동운명<br> 5가지 지각 군집화 요인으로 시지각의 작용을 설명한다.</p>
+      <p>
+        지각 조직 법칙에서는<br />
+        근접, 유사, 연속성, 폐쇄, 공동운명<br />
+        5가지 지각 군집화 요인으로 시지각의 작용을 설명한다.
+      </p>
 
-        <p>이러한 경향은 ‘좋은 형태, <br>즉 단순하고 안정적인 구조로 수렴하려는 성향의 결과이며 <br>이는 게슈탈트 이론의 핵심 법칙 체계를 이루었다.</p>
-
+      <p>
+        이러한 경향은 ‘좋은 형태, <br />즉 단순하고 안정적인 구조로 수렴하려는
+        성향의 결과이며 <br />이는 게슈탈트 이론의 핵심 법칙 체계를 이루었다.
+      </p>
     </div>
     <button>게슈탈트법칙 보기</button>
-
-   
-
   </body>
 </html>
