@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /* TYPE SCALE */
 :root {
   --step--2: clamp(0.6944rem, 0.619rem + 0.2011vw, 0.8rem);
@@ -357,13 +356,11 @@ button:hover {
   grid-column: 6/10;
 }
 
-/* ───────── Good Shape Section ───────── */
 .timeline-good {
   padding: 12rem 0;
   padding-bottom: 0;
 }
 
-/* 카드 */
 .goodShape {
   box-sizing: border-box;
   display: grid;
@@ -377,7 +374,6 @@ button:hover {
   border-radius: 30px;
 }
 
-/* 텍스트 */
 .good-text {
   grid-column: 2/6;
   color: #e3e3e3;
@@ -398,7 +394,6 @@ button:hover {
   line-height: 1.7;
 }
 
-/* 이미지 */
 .good-images {
   display: flex;
   flex-direction: column;
@@ -418,7 +413,6 @@ button:hover {
   margin-top: 12rem;
 }
 
-/* 10컬럼 그리드 */
 .rule-grid {
   position: relative;
   display: grid;

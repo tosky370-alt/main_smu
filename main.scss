@@ -151,7 +151,7 @@ button {
 }
 
 .grid-container {
-  max-width: 1200px; // 피그마 기준
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -167,7 +167,7 @@ button {
   display: grid;
   grid-template-columns: repeat(10, 1fr);
   column-gap: 2rem;
-  align-items: end; // 전체 기본 바텀
+  align-items: end;
   margin-top: var(--space-xl);
 }
 
@@ -219,7 +219,7 @@ button {
 
 .timeline-phi {
   position: relative;
-  padding: 10rem 0; // 🔥 y축 여유 핵심
+  padding: 10rem 0;
 }
 
 .timeline-phi .time-mark {
@@ -330,14 +330,11 @@ button {
   grid-column: 6 / 10;
 }
 
-/* ───────── Good Shape Section ───────── */
-
 .timeline-good {
   padding: 12rem 0;
   padding-bottom: 0;
 }
 
-/* 카드 */
 .goodShape {
   box-sizing: border-box;
   display: grid;
@@ -351,7 +348,6 @@ button {
   border-radius: 30px;
 }
 
-/* 텍스트 */
 .good-text {
   grid-column: 2 / 6;
   color: #e3e3e3;
@@ -375,7 +371,6 @@ button {
   }
 }
 
-/* 이미지 */
 .good-images {
   display: flex;
   flex-direction: column;
@@ -395,7 +390,6 @@ button {
   margin-top: 12rem;
 }
 
-/* 10컬럼 그리드 */
 .rule-grid {
   position: relative;
   display: grid;
