@@ -136,7 +136,7 @@ button {
 .time-mark {
   display: flex;
   flex-direction: column;
-  grid-column: 1 / 3;
+  grid-column: 1 / 2;
   align-items: center;
 }
 
@@ -151,7 +151,7 @@ button {
   font-size: var(--step-2);
 }
 
-.text {
+div.text {
   grid-column: 3 / 6;
 }
 
@@ -168,8 +168,9 @@ button {
 
 .portrait img {
   display: block;
+  grid-column: 6 / 9;
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 .name {
@@ -225,8 +226,8 @@ button {
   align-self: start;
 
   img {
-    width: auto;
-    height: clamp(280px, calc(var(--step-3) * 20), 520px);
+    width: 100%;
+    height: 100%;
   }
 }
 
@@ -234,8 +235,8 @@ button {
   grid-column: 4 / 8;
 
   img {
-    width: auto;
-    height: clamp(360px, calc(var(--step-4) * 22), 720px);
+    width: 100%;
+    height: 100%;
   }
 }
 
@@ -244,8 +245,8 @@ button {
   align-self: end;
 
   img {
-    width: auto;
-    height: clamp(280px, calc(var(--step-3) * 20), 520px);
+    width: 100%;
+    height: 100%;
   }
 }
 
@@ -289,20 +290,19 @@ button {
 .phi-portrait {
   grid-column: 5 / 7;
   align-self: start;
-  overflow: visible; // 혹시 hidden 걸려있으면 무조건 풀기
+  overflow: visible;
 }
 
 .phi-portrait img {
   display: block;
-  width: clamp(100px, calc(var(--step-2) * 8), 224px);
-  height: auto;
+  grid-column: 5 / 6;
+  width: 130%;
+  height: 130%;
   object-fit: contain;
 }
 
 .phi-quote {
   grid-column: 7 / 11;
-  align-self: center;
-  padding-left: clamp(var(--space-m), var(--space-l), var(--space-xl));
 
   h3 {
     margin-bottom: var(--space-s);
