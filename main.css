@@ -257,14 +257,16 @@ button:hover {
   align-self: start;
 }
 .philosopher.left img {
-  height: 520px;
+  width: auto;
+  height: clamp(280px, var(--step-3) * 20, 520px);
 }
 
 .philosopher.main {
   grid-column: 4/8;
 }
 .philosopher.main img {
-  height: 720px;
+  width: auto;
+  height: clamp(360px, var(--step-4) * 22, 720px);
 }
 
 .philosopher.right {
@@ -272,7 +274,8 @@ button:hover {
   align-self: end;
 }
 .philosopher.right img {
-  height: 520px;
+  width: auto;
+  height: clamp(280px, var(--step-3) * 20, 520px);
 }
 
 .timeline-phi {

@@ -225,7 +225,8 @@ button {
   align-self: start;
 
   img {
-    height: 520px;
+    width: auto;
+    height: clamp(280px, calc(var(--step-3) * 20), 520px);
   }
 }
 
@@ -233,7 +234,8 @@ button {
   grid-column: 4 / 8;
 
   img {
-    height: 720px;
+    width: auto;
+    height: clamp(360px, calc(var(--step-4) * 22), 720px);
   }
 }
 
@@ -242,7 +244,8 @@ button {
   align-self: end;
 
   img {
-    height: 520px;
+    width: auto;
+    height: clamp(280px, calc(var(--step-3) * 20), 520px);
   }
 }
 
